@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>In Theaters</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body ng-app="InTheaters">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">In Theaters</a>
+                </div>
+            </div>
+        </nav>
+        
+        <ng-view></ng-view>
+        
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="app.js"></script>
+        <script src="components/movies/movies.js"></script>
+        <script src="components/favorites/favorites.js"></script>
+        <script src="common/services/movies.js"></script>
+        <script src="common/directives/movie/movie.js"></script>
+    </body>
+</html>
